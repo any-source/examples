@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import example.dev.base.UiState
-import example.dev.domain.usecase.ExampleUseCase
+import usecase.ExampleUseCase
 import example.dev.presentation.feature.example.state.ExampleState
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

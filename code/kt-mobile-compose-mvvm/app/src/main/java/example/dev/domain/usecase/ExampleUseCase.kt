@@ -1,4 +1,4 @@
-package example.dev.domain.usecase
+package usecase
 
 import example.dev.base.UiState
 import example.dev.data.repository.ExampleRepositoryImpl

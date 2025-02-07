@@ -1,11 +1,11 @@
-package example.dev.domain.di
+package di
 
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import example.dev.data.repository.ExampleRepositoryImpl
-import example.dev.domain.usecase.ExampleUseCase
+import usecase.ExampleUseCase
 import javax.inject.Singleton
 
 @InstallIn(SingletonComponent::class)
