@@ -40,6 +40,7 @@ android {
     buildFeatures {
         compose = true
     }
+
 }
 
 dependencies {
@@ -98,5 +99,7 @@ dependencies {
     // Debugging Library
     debugImplementation(libs.library)
     releaseImplementation(libs.library.no.op)
+
+
 
 }
