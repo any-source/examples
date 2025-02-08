@@ -22,8 +22,13 @@ This is a template for Lokio, you can contribute here.
 
 | Boilerplate | Contributors |
 |------|-------------|
-| Next Monolith | Wahyu A. A |
-| Next Frontend | Wahyu A. A |
-| Astro Frontend | Wahyu A. A |
-| Hono Backend | Wahyu A. A |
-| Golang Backend | Wahyu A. A |
+| Next Monolith | Wahyu |
+| Next Frontend | Wahyu |
+| Astro Frontend | Wahyu |
+| Hono Backend | Wahyu |
+| Elisia Backend | Wahyu |
+| Golang Backend | Wahyu |
+| Kotlin MVVM Mobile | Aji |
+| Springboot Backend | Aji |
+| Vue Frontend | Adis |
+| Nuxt Frontend | Adis |
