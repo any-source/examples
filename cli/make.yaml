@@ -1,66 +1,65 @@
-MAPPINGS:
-  monolith-next:
-    - value: "hook"
-      label: "Hook"
-    - value: "call"
-      label: "Call"
-    - value: "component"
-      label: "Component"
-    - value: "screen"
-      label: "Screen"
-    - value: "layout"
-      label: "Layout"
-    - value: "controller"
-      label: "Controller"
-    - value: "middleware"
-      label: "Middleware"
-    - value: "service"
-      label: "Service"
+monolith-next:
+  - value: "hook"
+    label: "Hook"
+  - value: "call"
+    label: "Call"
+  - value: "component"
+    label: "Component"
+  - value: "screen"
+    label: "Screen"
+  - value: "layout"
+    label: "Layout"
+  - value: "controller"
+    label: "Controller"
+  - value: "middleware"
+    label: "Middleware"
+  - value: "service"
+    label: "Service"
 
-  frontend-next:
-    - value: "hook"
-      label: "Hook"
-    - value: "call"
-      label: "Call"
-    - value: "component"
-      label: "Component"
-    - value: "screen"
-      label: "Screen"
-    - value: "layout"
-      label: "Layout"
+frontend-next:
+  - value: "hook"
+    label: "Hook"
+  - value: "call"
+    label: "Call"
+  - value: "component"
+    label: "Component"
+  - value: "screen"
+    label: "Screen"
+  - value: "layout"
+    label: "Layout"
 
-  frontend-astro:
-    - value: "hook"
-      label: "Hook"
-    - value: "call"
-      label: "Call"
-    - value: "component"
-      label: "Component"
-    - value: "screen"
-      label: "Screen"
-    - value: "layout"
-      label: "Layout"
+frontend-astro:
+  - value: "hook"
+    label: "Hook"
+  - value: "call"
+    label: "Call"
+  - value: "component"
+    label: "Component"
+  - value: "screen"
+    label: "Screen"
+  - value: "layout"
+    label: "Layout"
 
-  frontend-angular:
-    - value: "hook"
-      label: "Hook"
+frontend-angular:
+  - value: "hook"
+    label: "Hook"
 
-  frontend-vue:
-    - value: "hook"
-      label: "Hook"
+frontend-vue:
+  - value: "hook"
+    label: "Hook"
 
-  frontend-nuxt:
-    - value: "hook"
-      label: "Hook"
+frontend-nuxt:
+  - value: "hook"
+    label: "Hook"
 
-  backend-hono:
-    - value: "hook"
-      label: "Hook"
+backend-hono:
+  - value: "hook"
+    label: "Hook"
 
-  backend-golang:
-    - value: "go-controller"
-      label: "Controller"
+backend-golang:
+  - value: "go-controller"
+    label: "Controller"
 
-  mobile-kotlin-mvvm:
-    - value: "feature"
-      label: "Feature"
+mobile-kotlin-mvvm:
+  - value: "feature"
+    label: "Feature"
