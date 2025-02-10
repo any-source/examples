@@ -6,22 +6,22 @@
       label: Angular
       hint: xxx
       status: true
-      lang: ts
+      ejst: .ts
     - value: frontend-astro
       label: Astro
       hint: xxx
       status: true
-      lang: ts
+      ejst: .ts
     - value: frontend-next
       label: Next
       hint: xxx
       status: true
-      lang: ts
+      ejst: .ts
     - value: frontend-vue
       label: Vue
       hint: xxx
       status: true
-      lang: ts
+      ejst: ts
 - value: mobile
   label: Mobile
   hint: "xxx"
@@ -30,4 +30,4 @@
       label: Kotlin MVVM
       hint: xxx
       status: true
-      lang: kt
+      ejst: .kt
