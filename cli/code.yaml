@@ -1,0 +1,14 @@
+- value: fe
+  label: Frontend
+  hint: xxx
+  children:
+    - value: next-monolith
+      label: ReactJs
+      hint: xxx
+      status: true
+      lang: ts
+    - value: next-frontend
+      label: NextJs
+      hint: aaa
+      status: false
+      lang: ts
