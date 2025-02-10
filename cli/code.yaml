@@ -1,33 +1,61 @@
-- value: fe
+- value: frontend
   label: Frontend
-  hint: "For"
+  hint: "Frontend technologies for building user interfaces"
   children:
     - value: frontend-angular
       label: Angular
-      hint: xxx
+      hint: "A TypeScript-based frontend framework developed by Google"
       status: true
       ejst: .ts
     - value: frontend-astro
       label: Astro
-      hint: xxx
+      hint: "A frontend framework optimized for speed using the island architecture approach"
       status: true
       ejst: .ts
     - value: frontend-next
       label: Next
-      hint: xxx
+      hint: "A React framework for building web applications with server-side rendering (SSR) and static site generation (SSG)"
       status: true
       ejst: .ts
     - value: frontend-vue
       label: Vue
-      hint: xxx
+      hint: "A progressive frontend framework that is flexible and easy to use"
       status: true
       ejst: .ts
 - value: mobile
   label: Mobile
-  hint: "xxx"
+  hint: "Technologies for mobile application development"
   children:
     - value: mobile-kotlin-mvvm
       label: Kotlin MVVM
-      hint: xxx
+      hint: "MVVM architecture in Android development using Kotlin"
       status: true
       ejst: .kt
+- value: backend
+  label: Backend
+  hint: "Backend technologies for building server-side applications"
+  children:
+    - value: backend-golang
+      label: Golang
+      hint: "Backend development using the Go programming language for high performance and efficiency"
+      status: true
+      ejst: .go
+    - value: backend-hono
+      label: Hono
+      hint: "A lightweight and fast TypeScript-based web framework for API development"
+      status: true
+      ejst: .ts
+    - value: backend-elysia
+      label: Elysia
+      hint: "A modern and modular TypeScript-based backend framework"
+      status: true
+      ejst: .ts
+- value: monolith
+  label: Monolith
+  hint: "Application development using a monolithic architecture"
+  children:
+    - value: monolith-next
+      label: NextJs
+      hint: "Application development using the Next.js framework"
+      status: true
+      ejst: .ts
