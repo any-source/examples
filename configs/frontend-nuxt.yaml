@@ -3,7 +3,7 @@
 # Github: https://github.com/any-source/lokio
 # Documentation: https://lokio.dev
 
-name: vue-frontend
+name: frontend-nuxt
 package: your-package
 
 # Directory

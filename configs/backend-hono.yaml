@@ -3,14 +3,10 @@
 # Github: https://github.com/any-source/lokio
 # Documentation: https://lokio.dev
 
-name: astro-frontend
+name: backend-hono
 package: your-package
 
 # Directory
 dir:
   # client
   hook: src/hooks
-  call: src/services
-  component: src/interfaces/components
-  screen: src/interfaces/screens
-  layout: src/interfaces/layouts

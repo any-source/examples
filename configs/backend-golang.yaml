@@ -3,7 +3,7 @@
 # Github: https://github.com/any-source/lokio
 # Documentation: https://lokio.dev
 
-name: go-backend
+name: backend-golang
 package: your-package
 
 # Directory

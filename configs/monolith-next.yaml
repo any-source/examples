@@ -1,0 +1,22 @@
+# Lokio Configuration File
+# Author: Lokio
+# Github: https://github.com/any-source/lokio
+# Documentation: https://lokio.dev
+
+name: monolith-next
+package: your-package
+
+# Directory
+dir:
+  # client
+  hook: src/hooks
+  call: src/call
+  component: src/interfaces/components
+  screen: src/interfaces/screens
+  layout: src/interfaces/layouts
+
+  # server
+  controller: src/server/controllers
+  middleware: src/server/middlewares
+  service: src/server/services
+  schema: src/server/schemas

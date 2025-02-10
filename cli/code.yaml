@@ -1,14 +1,33 @@
 - value: fe
   label: Frontend
-  hint: xxx
+  hint: "For"
   children:
-    - value: next-monolith
-      label: ReactJs
+    - value: frontend-angular
+      label: Angular
       hint: xxx
       status: true
       lang: ts
-    - value: next-frontend
-      label: NextJs
-      hint: aaa
-      status: false
+    - value: frontend-astro
+      label: Astro
+      hint: xxx
+      status: true
       lang: ts
+    - value: frontend-next
+      label: Next
+      hint: xxx
+      status: true
+      lang: ts
+    - value: frontend-vue
+      label: Vue
+      hint: xxx
+      status: true
+      lang: ts
+- value: mobile
+  label: Mobile
+  hint: "xxx"
+  children:
+    - value: mobile-kotlin-mvvm
+      label: Kotlin MVVM
+      hint: xxx
+      status: true
+      lang: kt

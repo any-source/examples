@@ -3,7 +3,7 @@
 # Github: https://github.com/any-source/lokio
 # Documentation: https://lokio.dev
 
-name: kt-mobile-compose-mvvm
+name: mobile-kotlin-mvvm
 package: your-package
 
 # Directory

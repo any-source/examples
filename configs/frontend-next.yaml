@@ -1,9 +1,10 @@
+
 # Lokio Configuration File
 # Author: Lokio
 # Github: https://github.com/any-source/lokio
 # Documentation: https://lokio.dev
 
-name: next-monolith
+name: frontend-next
 package: your-package
 
 # Directory
@@ -14,9 +15,3 @@ dir:
   component: src/interfaces/components
   screen: src/interfaces/screens
   layout: src/interfaces/layouts
-
-  # server
-  controller: src/server/controllers
-  middleware: src/server/middlewares
-  service: src/server/services
-  schema: src/server/schemas

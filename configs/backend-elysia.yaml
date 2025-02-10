@@ -1,17 +1,12 @@
-
 # Lokio Configuration File
 # Author: Lokio
 # Github: https://github.com/any-source/lokio
 # Documentation: https://lokio.dev
 
-name: next-frontend
+name: backend-elysia
 package: your-package
 
 # Directory
 dir:
   # client
   hook: src/hooks
-  call: src/call
-  component: src/interfaces/components
-  screen: src/interfaces/screens
-  layout: src/interfaces/layouts
