@@ -1,3 +1,4 @@
-# Hello this is lokio versi 1.0.0
+Lokio adalah cli assistant untuk mendampingin para programmer membuat project lebih cepat dan efesien.
+Berbagai template siap untuk digunakan, ts, js, golang, kotlin dan lain sebagainya
 
-This is a template for Lokio, you can contribute here.
+Founder: Wahyu A. Arifin
