@@ -1,0 +1,14 @@
+files_remove:
+  - CHANGELOG.md
+  - .codesandbox
+  - go.sum
+
+files_replace_package:
+  - go.mod:
+      patterns:
+        - regex: "module\\s+.+"
+          replace: "module ${name}"
+  - internal/repository/user_repository.go:
+      patterns:
+        - regex: "\"godesa"
+          replace: "\"${name}"
