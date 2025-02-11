@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"godesa/internal/entity"
+	"lokio_backend_golang/internal/entity"
 
 	"github.com/sirupsen/logrus"
 	"gorm.io/gorm"

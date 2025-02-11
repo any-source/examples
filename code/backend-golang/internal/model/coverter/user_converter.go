@@ -1,8 +1,8 @@
 package converter
 
 import (
-	"godesa/internal/entity"
-	"godesa/internal/model"
+	"lokio_backend_golang/internal/entity"
+	"lokio_backend_golang/internal/model"
 )
 
 func UserToResponse(user *entity.User) *model.UserResponse {

@@ -10,5 +10,5 @@ files_replace_package:
         replace: "module ${name}"
   internal/repository/user_repository.go:
     patterns:
-      - regex: "\"godesa"
+      - regex: "\"lokio_backend_golang"
         replace: "\"${name}"
