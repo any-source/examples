@@ -12,3 +12,11 @@ files_replace_package:
     patterns:
       - regex: "\"lokio_backend_golang"
         replace: "\"${name}"
+  cmd/web/main.go:
+    patterns:
+      - regex: "\"lokio_backend_golang"
+        replace: "\"${name}"
+  internal/config/app.go:
+    patterns:
+      - regex: "\"lokio_backend_golang"
+        replace: "\"${name}"
