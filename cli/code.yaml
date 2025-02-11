@@ -17,11 +17,11 @@
       hint: "A React framework for building web applications with server-side rendering (SSR) and static site generation (SSG)"
       status: true
       ejst: .ts
-    - value: frontend-vue
-      label: Vue
-      hint: "A progressive frontend framework that is flexible and easy to use"
-      status: true
-      ejst: .ts
+    # - value: frontend-vue
+    #   label: Vue
+    #   hint: "A progressive frontend framework that is flexible and easy to use"
+    #   status: true
+    #   ejst: .ts
 - value: mobile
   label: Mobile
   hint: "Technologies for mobile application development"
