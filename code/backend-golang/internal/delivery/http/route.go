@@ -1,7 +1,7 @@
 package route
 
 import (
-	http "godesa/internal/delivery/http/controller"
+	http "lokio_backend_golang/internal/delivery/http/controller"
 
 	"github.com/gofiber/fiber/v2"
 )

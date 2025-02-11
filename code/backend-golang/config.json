@@ -1,6 +1,6 @@
 {
     "app": {
-        "name": "godesa"
+        "name": "lokio_backend_golang"
     },
     "web": {
         "prefork": false,
@@ -14,7 +14,7 @@
         "password": "root",
         "host": "localhost",
         "port": 5432,
-        "name": "godesa",
+        "name": "lokio_backend_golang",
         "pool": {
             "idle": 10,
             "max": 100,

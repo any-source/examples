@@ -1,11 +1,11 @@
 package config
 
 import (
-	route "godesa/internal/delivery/http"
-	"godesa/internal/delivery/http/controller"
-	"godesa/internal/delivery/middleware"
-	"godesa/internal/repository"
-	"godesa/internal/usecase"
+	route "lokio_backend_golang/internal/delivery/http"
+	http "lokio_backend_golang/internal/delivery/http/controller"
+	"lokio_backend_golang/internal/delivery/middleware"
+	"lokio_backend_golang/internal/repository"
+	"lokio_backend_golang/internal/usecase"
 
 	"github.com/go-playground/validator/v10"
 	"github.com/gofiber/fiber/v2"

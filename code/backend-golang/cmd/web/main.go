@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"godesa/internal/config"
+	"lokio_backend_golang/internal/config"
 )
 
 func main() {

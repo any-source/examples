@@ -1,4 +1,4 @@
-module godesa
+module lokio_backend_golang
 
 go 1.21.4
 

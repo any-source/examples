@@ -1,9 +1,9 @@
 package http
 
 import (
-	"godesa/internal/delivery/middleware"
-	"godesa/internal/model"
-	"godesa/internal/usecase"
+	"lokio_backend_golang/internal/delivery/middleware"
+	"lokio_backend_golang/internal/model"
+	"lokio_backend_golang/internal/usecase"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/sirupsen/logrus"

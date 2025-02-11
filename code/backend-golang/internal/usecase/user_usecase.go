@@ -2,10 +2,10 @@ package usecase
 
 import (
 	"context"
-	"godesa/internal/entity"
-	"godesa/internal/model"
-	converter "godesa/internal/model/coverter"
-	"godesa/internal/repository"
+	"lokio_backend_golang/internal/entity"
+	"lokio_backend_golang/internal/model"
+	converter "lokio_backend_golang/internal/model/coverter"
+	"lokio_backend_golang/internal/repository"
 
 	"github.com/go-playground/validator/v10"
 	"github.com/gofiber/fiber/v2"

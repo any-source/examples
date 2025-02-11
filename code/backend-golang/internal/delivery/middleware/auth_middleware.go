@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"godesa/internal/model"
-	"godesa/internal/usecase"
+	"lokio_backend_golang/internal/model"
+	"lokio_backend_golang/internal/usecase"
 
 	"github.com/gofiber/fiber/v2"
 )
