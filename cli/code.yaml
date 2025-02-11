@@ -2,16 +2,16 @@
   label: Frontend
   hint: "Frontend technologies for building user interfaces"
   children:
-    - value: frontend-angular
-      label: Angular
-      hint: "A TypeScript-based frontend framework developed by Google"
-      status: true
-      ejst: .ts
-    - value: frontend-astro
-      label: Astro
-      hint: "A frontend framework optimized for speed using the island architecture approach"
-      status: true
-      ejst: .ts
+    # - value: frontend-angular
+    #   label: Angular
+    #   hint: "A TypeScript-based frontend framework developed by Google"
+    #   status: true
+    #   ejst: .ts
+    # - value: frontend-astro
+    #   label: Astro
+    #   hint: "A frontend framework optimized for speed using the island architecture approach"
+    #   status: true
+    #   ejst: .ts
     - value: frontend-next
       label: Next
       hint: "A React framework for building web applications with server-side rendering (SSR) and static site generation (SSG)"
@@ -40,11 +40,11 @@
       hint: "Backend development using the Go programming language for high performance and efficiency"
       status: true
       ejst: .go
-    - value: backend-hono
-      label: Hono
-      hint: "A lightweight and fast TypeScript-based web framework for API development"
-      status: true
-      ejst: .ts
+    # - value: backend-hono
+    #   label: Hono
+    #   hint: "A lightweight and fast TypeScript-based web framework for API development"
+    #   status: true
+    #   ejst: .ts
     - value: backend-elysia
       label: Elysia
       hint: "A modern and modular TypeScript-based backend framework"
