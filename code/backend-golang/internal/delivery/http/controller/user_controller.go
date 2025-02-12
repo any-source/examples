@@ -1,12 +1,12 @@
 package http
 
 import (
+	"github.com/gofiber/fiber/v2"
+	"github.com/sirupsen/logrus"
+
 	"lokio_backend_golang/internal/delivery/middleware"
 	"lokio_backend_golang/internal/model"
 	"lokio_backend_golang/internal/usecase"
-
-	"github.com/gofiber/fiber/v2"
-	"github.com/sirupsen/logrus"
 )
 
 type UserController struct {
