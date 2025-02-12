@@ -54,6 +54,11 @@ MAKE_CONFIG:
     extension: ".go"
     file_name: "{name}_controller"
     folder_name: ""
+  KT_FEATURE:
+    description: "Kotlin Feature files handle the business logic and act."
+    extension: ".kt"
+    file_name: "{name}_feature"
+    folder_name: ""
   DEFAULT:
     description: "No description available for this file type."
     extension: ".ts"
