@@ -59,6 +59,8 @@ backend-hono:
 backend-golang:
   - value: "go_controller"
     label: "Controller"
+  - value: "go_repository"
+    label: "Repository"
 
 mobile-kotlin-mvvm:
   - value: "feature"
