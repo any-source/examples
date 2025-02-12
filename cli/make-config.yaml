@@ -50,7 +50,7 @@ MAKE_CONFIG:
     file_name: "{name}_schema"
     folder_name: ""
   GO_CONTROLLER:
-    description: "Controller files handle the business logic and act as an intermediary between the view and the model."
+    description: "Go Controller files handle the business logic and act."
     extension: ".go"
     file_name: "{name}_controller"
     folder_name: ""
