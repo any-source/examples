@@ -1,0 +1,10 @@
+files_remove:
+  - CHANGELOG.md
+  - .codesandbox
+  - bun.lock
+
+files_replace_package:
+  package.json:
+    patterns:
+      - regex: '("name"\s*:\s*)"[^"]+"'
+        replace: '\1"${name}"'

@@ -1,0 +1,11 @@
+files_remove:
+  - CHANGELOG.md
+  - .codesandbox
+
+files_replace_package:
+  app/build.gradle.kts:
+    patterns:
+      - regex: 'namespace\s*=\s*"[^"]+"'
+        replace: 'namespace = "${name}.dev"'
+      - regex: 'applicationId\s*=\s*"[^"]+"'
+        replace: 'applicationId = "${name}.dev"'
