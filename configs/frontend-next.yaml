@@ -9,9 +9,9 @@ package: your-package
 # Directory
 dir:
   # client
-  hook: src/hooks
-  call: src/call
-  component: src/interfaces/components
-  screen: src/interfaces/screens
-  layout: src/interfaces/layouts
-  schema: src/schemas
+  ts_hook: src/hooks
+  ts_call: src/call
+  ts_component: src/interfaces/components
+  ts_screen: src/interfaces/screens
+  ts_layout: src/interfaces/layouts
+  ts_schema: src/schemas

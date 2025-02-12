@@ -9,4 +9,4 @@ package: your-package
 # Directory
 dir:
   # client
-  hook: src/hooks
+  ts_hook: src/hooks
