@@ -11,5 +11,5 @@ files_replace_package:
         replace: 'applicationId = "${name}.dev"'
 
 folder_rename:
-  - from: app/src/main/java/example/dev
-    to: app/src/main/java/${name}/dev
+  - from: app/src/main/java/example
+    to: app/src/main/java/${name}
