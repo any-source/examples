@@ -9,3 +9,7 @@ files_replace_package:
         replace: 'namespace = "${name}.dev"'
       - regex: 'applicationId\s*=\s*"[^"]+"'
         replace: 'applicationId = "${name}.dev"'
+
+folder_rename:
+  - from: app/src/main/java/example/dev
+    to: app/src/main/java/${name}/dev
