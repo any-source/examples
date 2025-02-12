@@ -1,10 +1,10 @@
 package middleware
 
 import (
+	"github.com/gofiber/fiber/v2"
+
 	"lokio_backend_golang/internal/model"
 	"lokio_backend_golang/internal/usecase"
-
-	"github.com/gofiber/fiber/v2"
 )
 
 func NewAuth(userUserCase *usecase.UserUseCase) fiber.Handler {

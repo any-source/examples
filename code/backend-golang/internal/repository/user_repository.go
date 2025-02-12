@@ -1,10 +1,10 @@
 package repository
 
 import (
-	"lokio_backend_golang/internal/entity"
-
 	"github.com/sirupsen/logrus"
 	"gorm.io/gorm"
+
+	"lokio_backend_golang/internal/entity"
 )
 
 type UserRepository struct {
