@@ -10,3 +10,10 @@ package: your-package
 dir:
   # client
   go_controller: internal/delivery/http/controller
+  go_feature:
+    - go_controller: internal/delivery/http/controller
+    - go_middleware: internal/delivery/http/middleware
+    - go_repository: internal/repository
+  go_alias:
+    - go_repository: internal/repository
+    - go_usecase: internal/usecase

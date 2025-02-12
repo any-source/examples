@@ -1,50 +1,50 @@
 MAKE_CONFIG:
-  HOOK:
+  TS_HOOK:
     description: "Hook is a custom function that can be used in your project to encapsulate reusable logic."
     extension: ".ts"
     file_name: "use_{name}"
     folder_name: ""
-  SHARED:
+  TS_SHARED:
     description: "Shared files contain utilities, constants, or other shared resources that can be used across the project."
     extension: ".ts"
     file_name: "main"
     folder_name: ""
-  CALL:
+  TS_CALL:
     description: "Call files are used to handle API calls or other external service interactions."
     extension: ".ts"
     file_name: "call_{name}"
     folder_name: ""
-  COMPONENT:
+  TS_COMPONENT:
     description: "Component files represent reusable UI components in your project."
     extension: ".tsx"
     file_name: "{name}"
     folder_name: ""
-  SCREEN:
+  TS_SCREEN:
     description: "Screen files define the main views or pages of your application."
     extension: ".tsx"
     file_name: "main"
     folder_name: "screen_{name}"
-  LAYOUT:
+  TS_LAYOUT:
     description: "Layout files define the structure and arrangement of components across multiple pages or screens."
     extension: ".tsx"
     file_name: "{name}_layout"
     folder_name: ""
-  CONTROLLER:
+  TS_CONTROLLER:
     description: "Controller files handle the business logic and act as an intermediary between the view and the model."
     extension: ".tsx"
     file_name: "{name}_controller"
     folder_name: ""
-  MIDDLEWARE:
+  TS_MIDDLEWARE:
     description: "Middleware files are used to intercept and process requests before they reach the main logic."
     extension: ".ts"
     file_name: "{name}_middleware"
     folder_name: ""
-  SERVICE:
+  TS_SERVICE:
     description: "Service files encapsulate business logic or external service interactions, often used for API calls or data processing."
     extension: ".ts"
     file_name: "{name}_service"
     folder_name: ""
-  SCHEMA:
+  TS_SCHEMA:
     description: "Schema files define the structure and validation rules for data in your application."
     extension: ".ts"
     file_name: "{name}_schema"
