@@ -20,3 +20,23 @@ files_replace_package:
     patterns:
       - regex: "\"lokio_backend_golang"
         replace: "\"${name}"
+  internal/delivery/http/controller/user_controller.go:
+    patterns:
+      - regex: "\"lokio_backend_golang"
+        replace: "\"${name}"
+  internal/delivery/http/route.go:
+    patterns:
+      - regex: "\"lokio_backend_golang"
+        replace: "\"${name}"
+  internal/delivery/http/middleware/auth_middleware.go:
+    patterns:
+      - regex: "\"lokio_backend_golang"
+        replace: "\"${name}"
+  internal/model/converter/user_converter.go:
+    patterns:
+      - regex: "\"lokio_backend_golang"
+        replace: "\"${name}"
+  internal/usecase/user_usecase.go:
+    patterns:
+      - regex: "\"lokio_backend_golang"
+        replace: "\"${name}"
