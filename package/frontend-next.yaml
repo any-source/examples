@@ -6,5 +6,5 @@ files_remove:
 files_replace_package:
   package.json:
     patterns:
-      - regex: '("name"\s*:\s*)"[^"]+"'
-        replace: '\1"${name}"'
+      - regex: '"name"\s*:\s*"[^"]+"'
+        replace: '"name": "${name}"'
