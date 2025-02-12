@@ -1,67 +1,91 @@
 monolith-next:
   - value: "hook"
     label: "Hook"
+    hint: ".ts"
   - value: "call"
     label: "Call"
+    hint: ".ts"
   - value: "component"
     label: "Component"
+    hint: ".tsx"
   - value: "screen"
     label: "Screen"
+    hint: ".tsx"
   - value: "layout"
     label: "Layout"
+    hint: ".tsx"
   - value: "controller"
     label: "Controller"
+    hint: ".ts"
   - value: "middleware"
     label: "Middleware"
+    hint: ".ts"
   - value: "service"
     label: "Service"
+    hint: ".ts"
 
 frontend-next:
   - value: "hook"
     label: "Hook"
+    hint: ".ts"
   - value: "call"
     label: "Call"
+    hint: ".ts"
   - value: "component"
     label: "Component"
+    hint: ".tsx"
   - value: "screen"
     label: "Screen"
+    hint: ".tsx"
   - value: "layout"
     label: "Layout"
+    hint: ".tsx"
 
 frontend-astro:
   - value: "hook"
     label: "Hook"
+    hint: ".ts"
   - value: "call"
     label: "Call"
+    hint: ".ts"
   - value: "component"
     label: "Component"
+    hint: ".tsx"
   - value: "screen"
     label: "Screen"
+    hint: ".tsx"
   - value: "layout"
     label: "Layout"
+    hint: ".tsx"
 
 frontend-angular:
   - value: "hook"
     label: "Hook"
+    hint: ".ts"
 
 frontend-vue:
   - value: "hook"
     label: "Hook"
+    hint: ".vue"
 
 frontend-nuxt:
   - value: "hook"
     label: "Hook"
+    hint: ".vue"
 
 backend-hono:
   - value: "hook"
     label: "Hook"
 
 backend-golang:
-  - value: "go_controller"
+  - value: "controller"
     label: "Controller"
-  - value: "go_repository"
+    hint: ".go"
+  - value: "repository"
     label: "Repository"
+    hint: ".go"
 
 mobile-kotlin-mvvm:
   - value: "feature"
     label: "Feature"
+    hint: ".kt"
