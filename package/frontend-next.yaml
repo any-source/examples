@@ -6,5 +6,10 @@ files_remove:
 files_replace_package:
   package.json:
     patterns:
-      - regex: '"name"\s*:\s*"[^"]+"'
+      # Update the name field
+      - regex: '"name":\s*"[^"]*"'
         replace: '"name": "${name}"'
+      # Remove the private field
+      - regex: '^\s*"private":\s*(true|false),?\n'
+        replace: ''
+    
